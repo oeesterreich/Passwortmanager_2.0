@@ -3,9 +3,9 @@
 class Database
 {
     private static $dbName = 'php31';
-    private static $dbHost = 'mysql';
+    private static $dbHost = 'localhost';
     private static $dbUsername = 'root';
-    private static $dbUserPassword = '123';
+    private static $dbUserPassword = '';
 
     private static $conn = null;
 
